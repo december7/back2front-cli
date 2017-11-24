@@ -1,0 +1,51 @@
+{
+  "name": "back2front-cli",
+  "version": "2.1.1",
+  "description": "Command line interface tools for Back2Front",
+  "keywords": [
+    "back2front",
+    "componentization",
+    "modular",
+    "compressor",
+    "compiler",
+    "combiner"
+  ],
+  "homepage": "https://github.com/heeroluo/back2front-cli#readme",
+  "bugs": {
+    "url": "https://github.com/heeroluo/back2front-cli/issues"
+  },
+  "license": "LGPL-3.0",
+  "author": {
+    "name": "Heero.Luo",
+    "email": "heeroluo@126.com",
+    "url": "http://heeroluo.net/"
+  },
+  "bin": {
+    "back2front": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heeroluo/back2front-cli.git"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-2": "^6.24.1",
+    "glob": "^7.1.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-filter": "^5.0.1",
+    "gulp-line-ending-corrector": "^1.0.1",
+    "gulp-modify": "^0.1.1",
+    "gulp-uglify": "^3.0.0",
+    "json-format": "^1.0.1",
+    "minimatch": "^3.0.4",
+    "minimist": "^1.2.0",
+    "pump": "^1.0.2",
+    "through2": "^2.0.3"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "preferGlobal": true
+}
