@@ -1,6 +1,6 @@
 # Back2Front CLI(Command line interface)
 
-与[Back2Front框架](https://github.com/heeroluo/back2front)配套的构建工具。
+与[Back2Front框架](https://github.com/december7/Back2Front)配套的构建工具。
 
 
 ## 安装
@@ -22,7 +22,7 @@ back2front depa <path> [--o <output-file>]
 
 ### 项目构建
 
-构建前要在**项目根目录**下放置构建配置文件「**build-config.json**」，具体配置项见[构建配置](https://github.com/heeroluo/back2front-cli/wiki/%E6%9E%84%E5%BB%BA%E9%85%8D%E7%BD%AE)。
+构建前要在**项目根目录**下放置构建配置文件「**build-config.json**」.
 
 ```
 back2front build <path> --env <env>
